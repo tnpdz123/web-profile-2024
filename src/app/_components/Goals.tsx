@@ -12,6 +12,7 @@ const Goals = (props: Props) => {
           <li>Learn a new coding skill</li>
           <li>Have a lot of money saved</li>
           <li>Improve communication skills</li>
+          <li>Eat every thing not a pork</li>
         </ul>
       </div>
     </Card>

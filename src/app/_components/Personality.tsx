@@ -16,7 +16,7 @@ const Personality = (props: Props) => {
         </p>
         <div className="flex gap-1">
           <Badge>PROTAGONIST</Badge>
-          <Badge>RIGHTEOUSNESS</Badge>
+          <Badge> RIGHTEOUSNESS</Badge>
           <Badge>PARTICIPATE</Badge>
           <Badge>NAVIGATE</Badge>
         </div>

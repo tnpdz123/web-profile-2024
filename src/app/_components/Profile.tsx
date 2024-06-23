@@ -31,6 +31,15 @@ const Profile = (props: Props) => {
         <p>
           <b>Location:</b> Bangkok
         </p>
+        <p>
+          <b>Facebook:</b> <a href="https://www.facebook.com/thanaphat.tenghirun.12/" target="_blank" rel="noopener noreferrer">Thanaphat Thr</a>
+        </p>
+        <p>
+          <b>Instagram:</b> <a href="https://www.instagram.com/russdee__/" target="_blank" rel="noopener noreferrer">russdee__</a>
+        </p>
+        <p>
+          <b>Email:</b> <a href="https://mail.google.com/mail/u/0/#inbox">Thanaphatgub@gmail.com</a>
+        </p>
       </div>
     </div>
   );

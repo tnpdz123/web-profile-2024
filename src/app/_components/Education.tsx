@@ -1,28 +1,46 @@
 import React from "react";
 import Card from "./common/Card";
 
-type Props = {};
-
-const Education = (props: Props) => {
+const Education = () => {
   return (
     <Card title="Education">
-      <div className="relative border-l-4 border-blue-500">
-        <div className="mb-5 ml-4">
-          <div className="absolute -left-2 mt-1.5 h-3 w-3 rounded-full border border-white bg-blue-500"></div>
-          <div className="rounded-lg bg-white p-2 shadow-md">
-            <time className="text-sm font-semibold text-gray-500">
+      <div className="border-l-4 border-blue-500 p-4">
+        <div className="mb-4">
+          <div className="flex items-center mb-2">
+            <div className="h-3 w-3 rounded-full border border-white bg-blue-500 mr-2"></div>
+            <div className="text-sm font-semibold text-gray-500">
               January 2024
-            </time>
-            <h2 className="mb-2 text-sm font-semibold">Walailak University</h2>
+            </div>
+          </div>
+          <div className="rounded-lg bg-white p-3 shadow-md">
+            <h2 className="text-sm font-semibold mb-1">Walailak University</h2>
+            <p className="text-xs text-gray-600">Bachelor's Degree in Computer Science</p>
           </div>
         </div>
-        <div className="mb-5 ml-4">
-          <div className="absolute -left-2 mt-1.5 h-3 w-3 rounded-full border border-white bg-blue-500"></div>
-          <div className="rounded-lg bg-white p-2 shadow-md">
-            <time className="text-sm font-semibold text-gray-500">
+        
+        <div className="mb-4">
+          <div className="flex items-center mb-2">
+            <div className="h-3 w-3 rounded-full border border-white bg-blue-500 mr-2"></div>
+            <div className="text-sm font-semibold text-gray-500">
               March 2021
-            </time>
-            <h2 className="mb-2 text-sm font-semibold">ST School</h2>
+            </div>
+          </div>
+          <div className="rounded-lg bg-white p-3 shadow-md">
+            <h2 className="text-sm font-semibold mb-1">ST School</h2>
+            <p className="text-xs text-gray-600">High School Diploma</p>
+          </div>
+        </div>
+        
+        <div className="mb-4">
+          <div className="flex items-center mb-2">
+            <div className="h-3 w-3 rounded-full border border-white bg-blue-500 mr-2"></div>
+            <div className="text-sm font-semibold text-gray-500">
+              January 2018
+            </div>
+          </div>
+          <div className="rounded-lg bg-white p-3 shadow-md">
+            <h2 className="text-sm font-semibold mb-1">NPM School</h2>
+            <p className="text-xs text-gray-600">Primary School</p>
           </div>
         </div>
       </div>
